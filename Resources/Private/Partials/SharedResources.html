@@ -1,0 +1,41 @@
+{namespace v=Tx_Vhs_ViewHelpers}
+<f:layout name="Page"/>
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+     xmlns:v="http://fedext.net/ns/vhs/ViewHelpers"
+     xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+
+	<f:section name="SharedResources">
+
+		<v:asset.style name="bootstrap" path="EXT:template_minimalistic/Resources/Public/Styles/bootstrap.min.css"/>
+		<v:asset.style name="bootstrap-responsive" path="EXT:template_minimalistic/Resources/Public/Styles/bootstrap-responsive.min.css"/>
+		<v:asset.style name="main-sheet" dependencies="bootstrap" path="EXT:template_minimalistic/Resources/Public/Styles/main.css"/>
+		<v:asset.style name="rte" dependencies="bootstrap" path="EXT:template_minimalistic/Resources/Public/Styles/rte.css"/>
+		<v:asset.style name="fontawesome" group="cdn" path="//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css"
+		               external="TRUE" standalone="TRUE"/>
+		<v:asset.style name="jquery-colorbox-css" path="EXT:jquerycolorbox/res/css/colorbox.css" standalone="TRUE"/>
+
+
+
+
+		<v:asset.script name="jquery" allowMoveToFooter="false"
+		                path="EXT:template_minimalistic/Resources/Public/JavaScript/Libraries/jquery-1.9.0.min.js"/>
+		<v:asset.script name="modernizr" allowMoveToFooter="false" dependencies="jquery"
+		                path="EXT:template_minimalistic/Resources/Public/JavaScript/Libraries/modernizr-2.6.2-respond-1.1.0.min.js"/>
+
+
+		<v:asset.script name="bootstrap-core" dependencies="jquery"
+		                path="EXT:template_minimalistic/Resources/Public/JavaScript/Libraries/bootstrap.min.js"/>
+
+		<v:asset.script name="jquery-colorbox" dependencies="jquery"
+		                path="EXT:jquerycolorbox/res/js/jquery.colorbox-min.js"/>
+		<v:asset.script name="jquery-colorbox-main" dependencies="jquery"
+		                path="EXT:jquerycolorbox/res/js/main.js"/>
+
+		<v:asset.script name="plugin" dependencies="jquery"
+		                path="EXT:template_minimalistic/Resources/Public/JavaScript/plugins.js"/>
+		<v:asset.script name="main" dependencies="jquery"
+		                path="EXT:template_minimalistic/Resources/Public/JavaScript/main.js"/>
+
+	</f:section>
+
+</div>
