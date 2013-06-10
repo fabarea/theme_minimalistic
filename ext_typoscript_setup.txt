@@ -3,9 +3,9 @@
 ###################################################
 
 plugin.tx_fluidpages {
-	collections.template_minimalistic {
-		templateRootPath = EXT:template_minimalistic/Resources/Private/Templates/
-		partialRootPath = EXT:template_minimalistic/Resources/Private/Partials/
-		layoutRootPath = EXT:template_minimalistic/Resources/Private/Layouts/
+	collections.theme_minimalistic {
+		templateRootPath = EXT:theme_minimalistic/Resources/Private/Templates/
+		partialRootPath = EXT:theme_minimalistic/Resources/Private/Partials/
+		layoutRootPath = EXT:theme_minimalistic/Resources/Private/Layouts/
 	}
 }
