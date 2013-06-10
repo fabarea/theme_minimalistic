@@ -1,3 +1,20 @@
-author:
-license:
-demo: http://demo
+# Name of the theme (required)
+title: Minimalistic theme for reference purposes
+
+# Keywords (optional)
+keywords:
+  - html5boilerplate
+  - responsive design
+
+# Name of the authors (optional)
+author: John Doe <john@doe.com>
+
+# Possible license if applicable (optional)
+# Pick on from http://creativecommons.org/choose/
+license: CC BY 3.0
+
+# Possible license URL if license is defined (optional)
+licenseUrl: http://creativecommons.org/licenses/by/3.0/
+
+# Whether a live demo is available (optional)
+demoUrl: http://example
