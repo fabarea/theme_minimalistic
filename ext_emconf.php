@@ -13,7 +13,7 @@
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Minimalistic fluid theme for reference purposes',
 	'description' => 'A minimalistic fluid theme which serves as reference.',
-	'author' => 'Fabien Udriot',
+	'author' => 'Fluid TYPO3 team',
 	'author_email' => 'fabien.udriot@ecodev.ch',
 	'category' => 'templates',
 	'author_company' => 'Ecodev',
